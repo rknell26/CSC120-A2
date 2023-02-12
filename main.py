@@ -34,9 +34,10 @@ def main():
         "Mac Pro (Late 2013)",
         "3.5 GHc 6-Core Intel Xeon E5",
         1024, 64,
-        "macOS Big Sur", 2013, 1500
-    )
-
+        "macOS Big Sur", 2013, 1500)
+    ResaleShop.buy(computer)
+    
+  
     # Print a little banner
     print("-" * 21)
     print("COMPUTER RESALE STORE")
@@ -73,6 +74,7 @@ def main():
     print("Checking inventory...")
     print_inventory()
     print("Done.\n")
+
 
 # Calls the main() function when this file is run
 if __name__ == "__main__": main()
